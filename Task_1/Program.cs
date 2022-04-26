@@ -8,6 +8,6 @@ double A = double.Parse(Console.ReadLine());
 Console.Write("Введите число B - > ");
 double B = double.Parse(Console.ReadLine());
 
-if(A>B) Console.Write("Max = " + A + " , Min = " + B);
-else if(A<B) Console.Write("Max = " + B + " , Min = " + A);
+if (A > B) Console.Write("Max = " + A + " , Min = " + B);
+else if (A < B) Console.Write("Max = " + B + " , Min = " + A);
 else Console.Write("Оба числа равны");
